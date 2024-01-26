@@ -1,12 +1,12 @@
 {
-  "name": "cooltaco",
+  "name": "@nebula-services/dynamic",
   "version": "0.7.2-patch.2",
   "description": "The new generation of interception proxies.",
   "main": "./bin/index.cjs",
   "types": "./bin/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jacob123th15/Cooltaco.git"
+    "url": "https://github.com/NebulaServices/Dynamic.git"
   },
   "scripts": {
     "start": "node --max-http-header-size=50000 index",
@@ -20,8 +20,8 @@
   "author": "",
   "license": "LGPL-2.0-only",
   "dependencies": {
-    "@cooltaco-pkg/mime": "^1.0.1",
-    "@cooltaco-pkg/mutation": "^1.0.0",
+    "@dynamic-pkg/mime": "^1.0.1",
+    "@dynamic-pkg/mutation": "^1.0.0",
     "@fastify/compress": "^6.4.0",
     "@fastify/static": "^6.10.2",
     "@tomphttp/bare-client": "^2.2.0-alpha",
